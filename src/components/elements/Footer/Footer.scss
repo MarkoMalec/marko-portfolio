@@ -1,0 +1,9 @@
+@import '../../../style/colors/colors';
+$border-gradient: linear-gradient(rgba(249, 85, 176, 1) 0%, rgba(235, 125, 14, 1) 100%);
+
+.footer-wrapper {
+    padding: 3rem 0;
+    color: $color-light;
+    background-color: $color-dark-500;
+    border-bottom: 8px solid $color-blue-700;
+}

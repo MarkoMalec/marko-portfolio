@@ -1,0 +1,27 @@
+@import '../../../style/colors/colors';
+
+.skillShowcase-wrapper {
+    position: relative;
+    padding: 30rem 0;
+    background: $background-gradient;
+
+    .wave {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+
+        svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 170px;
+            .shape-fill {
+                fill: white;
+            }
+        }
+        }
+
+}

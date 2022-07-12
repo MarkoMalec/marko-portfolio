@@ -1,0 +1,10 @@
+@import '../../../style/colors/colors';
+
+.header-wrapper {
+    position: sticky;
+    top: 0;
+    padding: .8rem 0;
+    color: $color-light;
+    background: $background-gradient;
+    z-index: 900;
+}
