@@ -1,6 +1,6 @@
 import React from "react";
 import Character from "./character.svg";
-import Blob from "./blobanimation.svg";
+import Blob from "./animatedblob.svg";
 import "./Hero.scss";
 
 const Hero = () => {
