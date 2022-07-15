@@ -42,12 +42,20 @@ $background-gradient-herotext: -webkit-linear-gradient(40deg, rgba(249, 85, 176,
                 }
 
                 span {
+                    width: fit-content;
                     font-size: 6rem;
                     text-shadow: 1px 5px 1px rgba(235, 125, 14, .2);
+                    
+                    transition: transform 1s ease-in-out;
+
+                    &:hover {
+                        background: $background-gradient-reverse;
+                        background-clip: text;
+                    }
 
                     @media (max-width: 950px) {
                         display: block;
-                        margin-top: -1.2rem;
+                        margin-top: -.6rem;
                         margin-bottom: .5rem;
                         font-size: 3.8rem;
                         text-shadow: none;
@@ -71,15 +79,24 @@ $background-gradient-herotext: -webkit-linear-gradient(40deg, rgba(249, 85, 176,
                 }
             }
 
-            button {
+            .btn-hero {
                 margin-top: 1.39rem;
                 padding: 12px 32px;
                 color: $color-light;
                 background: $background-gradient;
+                // background-size: 10px 80px;
                 font-size: 1.2rem;
                 border: none;
                 border-radius: 50px;
                 z-index: 500;
+                transition: .25s ease-in-out;
+                border: 1px solid transparent;
+
+                &:hover {
+                    background-position: 8.5rem;
+                    border: 1px solid white;
+
+                }
             }
         }
 

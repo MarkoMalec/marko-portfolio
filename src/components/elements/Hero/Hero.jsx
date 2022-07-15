@@ -18,7 +18,7 @@ const Hero = () => {
               showcase some of my skills throughout the projects I've done in
               the past
             </p>
-            <button>Projects</button>
+            <button className="btn-hero">Projects</button>
           </div>
           <div className="hero-character">
             <img src={Character} alt="Illustration of 'me'" />
